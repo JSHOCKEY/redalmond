@@ -1,0 +1,2 @@
+[2018-11-09 18:31:51] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://local.magento2:8888/magento2/buttons","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2018-11-09 18:39:51] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []

@@ -1,0 +1,51 @@
+.cms-buttons .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+.cms-buttons .grid button {
+  position: relative;
+  padding: 10px 0;
+  width: 225px;
+  color: #fff;
+  font-size: 10pt;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  -webkit-transition: all .35s;
+  transition: all .35s;
+}
+.cms-buttons .grid button.tocart {
+  background: #886cfe;
+  border: 2px solid #886cfe;
+}
+.cms-buttons .grid button.tocart:after {
+  border-color: #6c5ac8 #fff #fff #fff;
+}
+.cms-buttons .grid button.btn-continue {
+  background: #0383ff;
+  border: 2px solid #0383ff;
+}
+.cms-buttons .grid button.btn-continue:after {
+  border-color: #116bc9 #fff #fff #fff;
+}
+.cms-buttons .grid button.checkout {
+  background: #ffb902;
+  border: 2px solid #ffb902;
+}
+.cms-buttons .grid button.checkout:after {
+  border-color: #cb9321 #fff #fff #fff;
+}
+.cms-buttons .grid button:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 -2px -2px 0;
+  border-width: 10px 10px 0 0;
+  border-style: solid;
+}
+.cms-buttons .grid button:hover {
+  color: #000;
+  background: none;
+}
